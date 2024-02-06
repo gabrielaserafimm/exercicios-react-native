@@ -7,20 +7,22 @@ import Comp, {Comp1, Comp2} from './components/Mult'
 import Aleatorio from './components/Aleatorio'
 import Botao from './components/Botao'
 import Contador from './components/Contador'
-import Pai from './components/comunicacaoDireta/Pai'
+import Pai from './components/comunicacaoIndireta/Pai'
+import PaiDireta from './components/comunicacaoDireta/PaiDireta'
 
 
 const App = () => (
     <View style={style.App}>
-        <Pai/>
-        {/*<MinMax min={3} max={20}/>
+        {/*<PaiDireta/>
+        <MinMax min={3} max={20}/>
         <Comp/>
         <Comp1/>
         <Comp2/>
         <Primeiro/>
-        <Aleatorio min={10} max={60}/>
+        <Contador inicial={100}/>
         <Botao/>
-        <Contador inicial={100}/>*/}
+        <Aleatorio min={10} max={60}/>*/}
+        <Pai />
     </View>
 )
 
