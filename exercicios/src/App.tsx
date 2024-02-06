@@ -9,6 +9,7 @@ import Botao from './components/Botao'
 import Contador from './components/Contador'
 import Pai from './components/comunicacaoIndireta/Pai'
 import PaiDireta from './components/comunicacaoDireta/PaiDireta'
+import ContadorPai from './components/contador/ContadorPai'
 
 
 const App = () => (
@@ -21,8 +22,9 @@ const App = () => (
         <Primeiro/>
         <Contador inicial={100}/>
         <Botao/>
-        <Aleatorio min={10} max={60}/>*/}
-        <Pai />
+        <Aleatorio min={10} max={60}/>
+        <Pai />*/}
+        <ContadorPai/>
     </View>
 )
 
